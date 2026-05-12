@@ -1,5 +1,5 @@
 // Complete the js code
-class Car(make, model) {
+class Car {
 	constructor(make,model){
 		this._make = make;
 		this._model = model;
@@ -15,11 +15,11 @@ class Car(make, model) {
 	}
 }
 
-clas SportsCar(make, model, topSpeed) extends Car {
+class SportsCar extends Car {
     constructor(make, model, topSpeed){
-		super(make, model){
+		super(make, model);
 			this._topSpeed = topSpeed;
-		}
+		
 	}
 	get topSpeed(){
 		return this._topSpeed;
