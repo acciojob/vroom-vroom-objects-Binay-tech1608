@@ -11,7 +11,7 @@ function Car(make, model) {
 
 function SportsCar(make, model, topSpeed) extends Car {
     constructor(make, model, topSpeed){
-		super(make, model,topSpeed){
+		super(make, model){
 			this._topspeed = topSpeed;
 		}
 	}
